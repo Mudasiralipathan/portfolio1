@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer.jsx";
 
 
 
+
 const App = () => {
   return (
     <div>
@@ -17,8 +18,6 @@ const App = () => {
       <Project/>
       <Contact/>
       <Footer/>
-         
-    
     </div>
   );
 };

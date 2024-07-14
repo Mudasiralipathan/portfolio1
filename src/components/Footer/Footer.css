@@ -5,7 +5,7 @@ footer{
     border: 1px black solid;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-inline: 100px;
 }
 footer>div{
