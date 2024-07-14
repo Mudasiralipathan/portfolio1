@@ -1,5 +1,10 @@
 import React from 'react'
 import './Contact.css'
+import whatsapp from '../Images/WHATSAPP.jpg'
+import location from '../Images/LOCATION.png'
+import email from '../Images/EMAIL.png'
+
+
 
 const Contact = () => {
  const contact = [
@@ -7,19 +12,19 @@ const Contact = () => {
      id: 1,
      name: "Email",
      email: "x5n5E@example.com",
-     img :"src/assets/logo/EMAIL.png"
+     img :{email}
    },
    {
      id: 2,
      name: "Location",
      email: "karachi/pakistan",
-     img :"src/assets/logo/LOCATION.png"
+     img :{location}
    },
    {
      id: 3,
      name: "Whatsapp",
      email: "+92 300 000 0000",
-     img :"src/assets/logo/WHATSAPP.jpg"}
+     img :{whatsapp}}
  ]
   return (
     <div className="contact">
