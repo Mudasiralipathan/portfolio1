@@ -12,19 +12,20 @@ const Contact = () => {
      id: 1,
      name: "Email",
      email: "x5n5E@example.com",
-     img :{email}
+     img : email
    },
    {
      id: 2,
      name: "Location",
      email: "karachi/pakistan",
-     img :{location}
+     img : location
    },
    {
      id: 3,
      name: "Whatsapp",
      email: "+92 300 000 0000",
-     img :{whatsapp}}
+     img : whatsapp
+    }
  ]
   return (
     <div className="contact">
@@ -36,7 +37,7 @@ const Contact = () => {
         {contact.map((item) => {
           return (
             <div className="contact-card" key={item.id}>
-              <div><img src={email} alt="" /></div>
+              <div><img src={item.img} alt="" /></div>
               <div>
               <h3>{item.name}</h3>
               <p>{item.email}</p>
