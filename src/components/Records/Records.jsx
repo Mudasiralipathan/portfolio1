@@ -79,7 +79,7 @@ const Records = () => {
           <div className="slides">
               {record.map((item,idx)=>(
                 <div className="card" key={idx} >
-                  <div><img src={item.img} alt="" /></div>
+                  <div><img src={awardimg} alt="" /></div>
                     <div>
                       <h3>CLASS :{item.class}</h3>
                       <h4>SUBJECT :{item.subject}</h4>
