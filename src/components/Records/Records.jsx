@@ -1,5 +1,6 @@
 import React from 'react'
 import './Records.css'
+import awardimg from '../Images/award2.png'
 
 const Records = () => {
   let record=[
@@ -8,7 +9,7 @@ const Records = () => {
       class: "7th",
       subject: "Maths",
       marks: "100",
-      img :"src/assets/logo/award2.png"
+      img :{awardimg}
     },
       
       {
@@ -16,7 +17,7 @@ const Records = () => {
         class: "8th",
         subject: "English",
         marks: "100",
-        img :"src/assets/logo/award2.png"
+        img :{awardimg}
       },
         
         
@@ -25,7 +26,7 @@ const Records = () => {
           class: "9th",
           subject: "Science",
           marks: "100",
-          img :"src/assets/logo/award2.png"
+          img :{awardimg}
         },
           
           {
@@ -33,21 +34,21 @@ const Records = () => {
             class: "10th",
             subject: "Hindi",
             marks: "100",
-            img :"src/assets/logo/award2.png"
+            img :{awardimg}
           },
             {
               id:5,
               class: "10th",
               subject: "Maths",
               marks: "100",
-              img :"src/assets/logo/award2.png"
+              img :{awardimg}
             },
               {
                 id:6,
                 class: "10th",
                 subject: "English",
                 marks: "100",
-                img :"src/assets/logo/award2.png"
+                img :{awardimg}
               },
                 {
                   id:7,
@@ -61,7 +62,7 @@ const Records = () => {
                     class: "10th",
                     subject: "Hindi",
                     marks: "100",
-                    img :"src/assets/logo/award2.png"
+                    img :{awardimg}
                   },
   ]
   
