@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import Project from '../Project/Project'
+import footerimg from '../Images/ninja-logo.png'
 
 const Footer = () => {
     const footdata =[
@@ -16,7 +17,7 @@ const Projectlinks =[
   return (
     <footer>
         <div className="logo_div">
-        <img className='header-logo' src="public/logo/ninja-logo.png" alt="" />
+        <img className='header-logo' src={footerimg} alt="" />
         <h1>MUDASIR</h1>
         </div>
         <div className="page_div">
