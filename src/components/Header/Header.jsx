@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import headerimg from "src/assets/logo/ninja-logo.png"
 
 const Header = () => {
     const nav =[
@@ -12,7 +13,7 @@ const Header = () => {
   return (
     <header className='header'>
         <div id='logodiv'>
-        <img className='header-logo' src="public/logo/ninja-logo.png" alt="" />
+        <img className='header-logo' src={headerimg} alt="" />
          <h1>MUDASIR</h1>
             </div>
         <div className='nav'>{nav.map((item)=>{
