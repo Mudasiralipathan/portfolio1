@@ -15,7 +15,6 @@ const Header = () => {
         <img className='header-logo' src="public/logo/ninja-logo.png" alt="" />
          <h1>MUDASIR</h1>
             </div>
-        
         <div className='nav'>{nav.map((item)=>{
             return <a href={item.link}>{item.name} <span></span> </a>
         })}</div>
