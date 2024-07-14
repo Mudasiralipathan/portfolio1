@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import headerimg from '../../assets/logo/ninja-logo.png'
+import headerimg from 'src/assets/logo/ninja-logo.png'
 
 
 const Header = () => {
