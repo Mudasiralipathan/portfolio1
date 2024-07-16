@@ -1,8 +1,12 @@
 import React from 'react'
 import './Contact.css'
 import whatsapp from '../Images/WHATSAPP.jpg'
-import location from '../Images/LOCATION.png'
-import email from '../Images/EMAIL.png'
+import location from '../Images/map.png'
+import email from '../Images/mail.png'
+import fb from '../Images/facebook.png'
+import ld from '../Images/linkedIn.png'
+import ig from '../Images/instagram.png'
+
 
 
 
@@ -25,7 +29,26 @@ const Contact = () => {
      name: "Whatsapp",
      email: "+92 300 000 0000",
      img : whatsapp
-    }
+    },
+    {
+      id: 4,
+      name: "Facebook",
+      email: "+92 300 000 0000",
+      img : fb
+     },
+     {
+      id: 5,
+      name: "Linkedin",
+      email: "+92 300 000 0000",
+      img : ld
+     },
+     {
+      id: 6,
+      name: "Instagram",
+      email: "+92 300 000 0000",
+      img : ig
+     },
+     
  ]
   return (
     <div className="contact">
