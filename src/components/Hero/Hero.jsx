@@ -10,6 +10,9 @@ const Hero = () => {
       <div>
         <h1>Hello <br /> I'm MUDASIR</h1>
         <p>FRONTED REACT JS WEB DEVELOPER</p>
+        <div className="button">
+        <button><span>Get Started</span></button>
+      </div>
       </div>
       <div>
         <div className="img">

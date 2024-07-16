@@ -29,9 +29,9 @@ const Contact = () => {
  ]
   return (
     <div className="contact">
-      <div className="space2">
+      {/* <div className="space2">
         <div></div>
-      </div>
+      </div> */}
       <div className='contact-heading'><h1>Contact</h1></div>
       <div className='contact-container'>
         {contact.map((item) => {

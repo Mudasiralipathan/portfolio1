@@ -70,9 +70,9 @@ const Records = () => {
   return (
    
     <div className='records'>
-        <div className="space">
-          <div></div>
-        </div>
+        {/* <div className="space">
+          <div></div> 
+        </div> */}
       <section> 
         <div className="Recordsheading"><h1>Records</h1></div>
          <div className="slider">
@@ -91,9 +91,9 @@ const Records = () => {
           </div>
          </div>
       </section>
-      <div className="space1">
+      {/* <div className="space1">
         <div></div>
-      </div>
+      </div> */}
     </div>
   )
 }
